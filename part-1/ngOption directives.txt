@@ -1,0 +1,13 @@
+Q.ng-option
+=>it is a directive used for data binding to a drop down control 
+=>it will take the array collection.
+=>ng-model must be there.
+
+syntax:
+ng-repeat=item in collection
+
+ng-option=xyz.code      for         xyz  in  collection
+
+
+xyz pointing to countries  obj every time one object
+xyz.code    it is for one object and property.

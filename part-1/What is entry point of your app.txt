@@ -1,0 +1,2 @@
+What is ng-app ?
+=>it is a entry point for our application.

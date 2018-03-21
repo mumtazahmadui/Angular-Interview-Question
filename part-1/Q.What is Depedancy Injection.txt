@@ -1,0 +1,4 @@
+Q.What is Depedancy Injection ?
+=>Depedancy Injection Is A software design pattern in which componenets are given there depedancy insted of hardcoding in it.
+=>in which depedancy component are loaded first and then depedent module are loaded.
+

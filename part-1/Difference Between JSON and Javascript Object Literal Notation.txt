@@ -1,0 +1,48 @@
+Q.Difference Between JSON and Javascript Object Literal Notation
+=> 
+Solution :
+JSON [Javascript Object Notation] Vs Javascript Object Literal Notation
+
+
+The main differences:
+=>The keys must be strings (i.e. enclosed in double quotes ") in JSON.
+The values can be either:
+    a string
+   a number
+   an (JSON) object 
+   an array
+   true
+   false 
+   null
+
+JSON Example :
+=>
+{
+
+
+    "users": [ { "id": 1,  "websitename": "Webcodehelpers", "url": "www.webcodehelpers" },
+                       { "id": 2, "websitename": "SriSolutions", "url": "www.srisolutions.in" } ]
+
+}
+
+
+
+
+Javascript Object Literal Notation Example :
+
+
+
+{
+    users: [
+        {
+            id: "1",
+            websitename: "Webcodehelpers",
+            url: "www.webcodehelpers"
+        },
+        {
+            id: "2",
+            websitename: "SriSolutions",
+            url: "www.srisolutions.in"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+Q.How angular js framework implement mvc pattern.
+-----------------------------------------------------------------------------------------------
+Ans:
+According to this mvc pattern, application developement process is split into 3 modules
+1.M    =>model
+2.V    =>view
+3.c     =>controller
+
+1.model
+=>model is responsible for data storage related logic.
+=>In Angular js model is implemented by using javascript variable,array and object.
+=>at the time of execution of database application model data will be exchange with client side to server side
+  using ajax call.
+
+2.view
+=>view is responsible for presenttaion (UI) logic.
+=>In Angular js view is implemented by html,css and angular js directive.
+=>view is  responsible for how to present model data to end-user.
+ 
+3.controller
+=>controller is responsible for application execution logic.
+=>In angular js controller is implemented by using js function.
+=>it acts as a mediator between model and view

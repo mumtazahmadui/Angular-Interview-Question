@@ -1,0 +1,6 @@
+Q.what is directives in angular js?
+=>Directive are marker on DOM element.(such as attribute name ,class name ,comment ,ect)
+=>when we apply any directive on DOM it tell the html compiler to add some special behaviour on DOM 
+=>we can create our own directive as per our need.
+=>it is a extended html attributes prefix with ng.
+

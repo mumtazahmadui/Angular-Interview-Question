@@ -1,0 +1,75 @@
+=>if you want to add list of country to ur dropdown then we can take from controller.
+=>but again i need country to my another dropdown in this case we again need to defind in another controller .....like that much more code we have to write in every controller , it is not good practice to do like that .
+=>therefore create one common file which gives list of country and  access to your every controller it is good practice.
+==========================================================
+=>now in general data comes from database or json file
+so access json file in your common file and then to controller after that your ui.
+==========================================================
+======****** Step to Get Data From Json file*******==========
+
+------------------------------------------------------------------------------------------------------------------
+step1:
+=>for asynchronous call   we will use promise and service.
+=>for that we have to inject  depedency $q service
+=>inject to a lookupSvc and parameter to lookuoSvcFn($q).
+
+=>as of now ur lookupSvc 
+ ur getCountries() function is there we have to convert it in to promises.
+=>crete a defer object
+  var dfd = $q.defer();
+              
+  if (countries.length < 0) {
+    
+                dfd.resolve(countries);
+       
+         } 
+else {
+           
+         dfd.reject("There is an error");
+       
+         }
+
+              
+  //step3: returnt the promise
+           
+ return dfd.promise;
+
+
+=>ealier we r returing countries now we r returing promise
+              return dfd.promis;
+
+=>now we have it handle promise 
+   1)resolve(make)
+   2)reject(break)
+=>the momont  you create defer object u are suppose to send promise. to whome that controller
+
+
+=>controller have method called getCountries and these countries comes from service .and now service will send promises to controller  and  will have to handle these promises.
+
+that is 
+
+
+lookupSvc.getCountries()
+  
+      .then( function(res){
+      
+      console.log(res);
+       
+ })
+      
+
+-----------------------------------------------------------------------------------------------------------------
+=>defer object having property.
+         promise,reject,resolve
+=>we r returning promise from service;
+      promise is object.
+=>
+
+
+
+  .catch(function(err){
+         
+   console.log(err);
+     
+ })
+

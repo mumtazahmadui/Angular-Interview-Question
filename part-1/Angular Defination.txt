@@ -1,0 +1,11 @@
+Angular:
+=>Angular is javascript framework .
+
+Defination:
+=>It is a structural framework for developing dynamic web application.
+
+=>it implement MV* design pattern to implement client side programming.
+
+=>it makes your client side programming more easy.
+
+=>It is a open source framework power by google.

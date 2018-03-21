@@ -1,0 +1,3 @@
+Q.what is ng in angularjs?
+=>ng is a core module and stands for angular.
+=>the ng module is loaded automatically when angular js application starting.

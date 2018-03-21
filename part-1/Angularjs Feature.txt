@@ -1,0 +1,34 @@
+Angular js Feature:
+===================
+1.Structral Programming:
+=>it uses mvc design pattern for web application developement
+=>due to this its developement,testing ,maintamce is very easy.
+
+2.HTML as  a Template:
+=>Angular js uses existing html tags as a template.
+=>Angular js provide some directive (like attribute) to implement that templates.
+=>so at the time of execution of application it will generate actual content.
+
+3.parallel developement:
+=>due to mvc pattern,multiple programmer work parallely because
+     we are creating saperate file for each module.
+=>if you use controller and view in same file then only one programmer will work on that.
+
+4.data-binding:
+=>data-binding is a primary feature of angular js.
+=>data-binding can be implemented in diffrent ways.
+1.one-way-binding
+2.two-way-binding
+=>in this model variable/objects are bind with views.
+
+5.Highly testable:
+=>Due to mvc pattern testing is more comfortable.
+=>we can easily test required module.
+=>Angular js application is tested by using trsting tool like "jasmine" and "karma".
+
+
+6.Routing Support for SPA
+=>
+
+
+

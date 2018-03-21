@@ -1,0 +1,17 @@
+Q.Name and describe the phases of a directive definition function execution, or describe how directives are instantiated. ?
+=>compile is a function for the directive.
+=>it will take two parameter 
+  element,attribute
+=>element is nothing but what are html you decleare 
+
+compile:function(element,attribute){
+
+}
+
+=>first $compile function is executed .  it return two link function.  prelink  and post link that function is executed for every directive.starting from parent ,then child , then grandchild .
+
+
+=>secondly two function are executed for every directive , prelinking and controller function .the order of execution again start from parent ,then child ,then grandchild .
+
+=>prelinking phase we will initilize the property.
+=>in post linking we will attach the events.

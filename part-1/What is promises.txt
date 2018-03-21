@@ -1,0 +1,31 @@
+promise:
+==========
+Q.what is promis?
+=>promiss is a word  your future action.
+==============================================
+=>if  you  make it ==resolve
+=>if you break it ==reject
+ --------------------------------------------------------
+=>to work with promises we will use a service called #q,this need to be injected.
+-------------------------------------------------------------------------------------------------------------
+step 1:
+ angular.module("common")
+  
+    .service("lookupService", ["$q", lookupServiceFn])
+
+
+step 2:
+create a var called defered obj
+
+ var dfd = $q.defer();
+ if (countries.length < 0) {
+ 
+     dfd.resolve(countries);
+    //meanse then            
+   }
+ else {
+dfd.reject("There is an error");
+     //
+}
+//step3: returnt the promise
+    return dfd.promise;//return promises

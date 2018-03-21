@@ -1,0 +1,11 @@
+Q.what is jqlite?
+=>it is a built-in subset of jquery.
+
+Q. How to access jQLite or jQuery with AngularJS?
+OR
+Q.What is angular.element() in AngularJS?
+Ans.
+=> jQuery lite or the full jQuery library if available, can be accessed via the AngularJS code by using the
+element() function in AngularJS. 
+=>Basically, angular.element() is an alias for the jQuery function i.e.
+angular.element() === jQuery() === $()
